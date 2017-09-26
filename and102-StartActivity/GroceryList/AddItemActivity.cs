@@ -23,12 +23,12 @@ namespace GroceryList
 			string name  = FindViewById<EditText>(Resource.Id.nameInput).Text;
 			int    count = int.Parse(FindViewById<EditText>(Resource.Id.countInput).Text);
 
-			// TODO
+            Finish();
 		}
 
 		void OnCancelClick(object sender, EventArgs e)
 		{
-			// TODO
+            Finish();
 		}
 	}
 }
