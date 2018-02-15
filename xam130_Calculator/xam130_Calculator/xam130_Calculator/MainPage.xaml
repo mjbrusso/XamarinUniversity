@@ -9,7 +9,7 @@
             <On Platform="iOS">0,20,0,0</On>
         </OnPlatform>
     </ContentPage.Padding>
-
+    
     <Grid RowSpacing="1"
           ColumnSpacing="1"
           BackgroundColor="Black">
@@ -51,6 +51,6 @@
 
         <Button Grid.Row="5" Grid.Column="0"  Text="CE" BackgroundColor="Gray" TextColor="Black" FontSize="38" BorderRadius="0" Clicked="OnClear"/>
         <Button Grid.Row="5" Grid.Column="1"  Text="C" BackgroundColor="Gray" TextColor="Black" FontSize="38" BorderRadius="0" Clicked="OnClear"/>
-        <Button Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2" Text="±" BackgroundColor="{x:Static local:SharedResources.OpButtonBkColor}" TextColor="White" FontSize="38" BorderRadius="0" Clicked="OnCalculate"/>
+        <Button Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2" Text="=" BackgroundColor="{x:Static local:SharedResources.OpButtonBkColor}" TextColor="White" FontSize="38" BorderRadius="0" Clicked="OnCalculate"/>
     </Grid>
 </ContentPage>
